@@ -1,0 +1,71 @@
+.conteiner{
+    display: flex;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.box {
+    width: 720px;
+    height: 720px;
+    background-color: #879b2c;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 50px;
+    border-style: double;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.imagens{
+    margin: 20px;
+}
+
+.titleBox {
+    font-size: xx-large;
+    margin: 50px;
+    text-align: center;
+}
+.button {
+    display: flex;
+    vertical-align: top;
+    margin-right: 20px; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+.textPaperBlue{
+    padding: 20px;
+    color: blue;
+    margin: 20px;
+}
+
+.textGlassGreen{
+    padding: 20px;
+    color: rgb(21, 255, 0);
+    margin: 20px;
+}
+
+.textMetalYellow{
+    padding: 20px;
+    color: rgb(194, 235, 12);
+    margin: 20px;
+}
+
+.textPlasticRed{
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    margin: 20px;
+}
