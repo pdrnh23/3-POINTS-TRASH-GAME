@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Titillium+Web:wght@300&family=Young+Serif&display=swap');
+
+.fontTitle{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 350%;
+    text-align: center;
+    margin: 0%;
+    padding-top: 2%;
+}
+
+.container {
+    display: flex;
+    width: 250%;
+    max-width: 900px;
+    height: 900px; 
+    background-color: #c01537;
+    border: 2px solid #29b952;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    padding: 20px;
+    margin: 0 auto; 
+    flex-direction: column;
+    justify-content: space-between; 
+
+}
+
+.titlePapel{
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 300%;
+    margin: 0%;
+    transform: translate(1%, 100%);
+
+}
+
+.titleVidro {
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 300%;
+    margin: 0%;
+    transform: translate(1%, -230%);
+}
+
+.titleMetal{
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 300%;
+    transform: translate(1%, -1150%);
+
+}
+
+.titlePlastico{
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 300%;
+    transform: translate(1%, -600%);
+}
+
+.papelAmassado1{
+    display: flex;
+    transform: translate(70%, -30%);
+    width: 20%
+}
+
+.papelAmassado2{
+    display: flex;
+    transform: translate(450%, -230%);
+    width: 9%
+}
+
+.garrafaVidro{
+    display: flex;
+    transform: translate(110%, -210%);
+    width: 15%
+}
+
+.copoVidro{
+    display: flex;
+    transform: translate(390%, -430%);
+    width: 10%
+}
+
+.copoPlastico{
+    display: flex;
+    transform: translate(120%, -470%);
+    width: 15% 
+}
+
+.sacolaPlastico{
+    display: flex;
+    transform: translate(400%, -835%);
+    width: 10% 
+}
+
+.tampaMetal{
+    display: flex;
+    transform: translate(200%, -1108%);
+    width: 10% 
+}
+
+.lataMetal{
+    display: flex;
+    transform: translate(170%, -630%);
+    width: 20% 
+}
+
+.flecha1{
+    display: flex;
+    transform: translate(1300%, -570%);
+    width: 5% 
+}
+
+.flecha2{
+    display: flex;
+    transform: translate(1300%, -1000%);
+    width: 5% 
+}
+
+.flecha3{
+    display: flex;
+    transform: translate(1300%, -1800%);
+    width: 5% 
+}
+
+.flecha4{
+    display: flex;
+    transform: translate(1300%, -2750%);
+    width: 5% 
+}
+
+.lixeiraVerde{
+    display: flex;
+    transform: translate(1650%, -700%);
+    width: 5% 
+}
+
+.lixeiraAzul{
+    display: flex;
+    transform: translate(1650%, -1150%);
+    width: 5% 
+}
+
+.lixeiraAmarela{
+    display: flex;
+    transform: translate(1650%, -2000%);
+    width: 5% 
+}
+
+.lixeraVermelha{
+    display: flex;
+    transform: translate(1650%, -2950%);
+    width: 5% 
+}
+
+
+
+
+
+

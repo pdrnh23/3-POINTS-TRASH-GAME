@@ -1,0 +1,26 @@
+body{
+    background-image: url('paisagemnova.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+.button {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 50px 70px; /* Aumente o valor para aumentar o tamanho do botão */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+    /* Posicionamento no centro */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background: rgba(0, 123, 255, 0.2); /* Define uma cor de fundo levemente transparente quando o botão é hover */
+}
