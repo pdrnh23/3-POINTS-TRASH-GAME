@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('paisagem.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+
+h1.h1Title {
+  text-align: center;
+  font-size: 70px;
+}
+
+p.pPhrase {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button1{
+  display: flex;
+  transform: translate(90%, 500%);
+  background-color: red;
+  border-radius: 25px;
+  border: 2px solid red;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.button2{
+  display: flex;
+  transform: translate(900%, 410%);
+  background-color: green;
+  border-radius: 25px;
+  border: 2px solid green;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+

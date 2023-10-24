@@ -1,0 +1,51 @@
+.objeto {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  cursor: move;
+}
+
+.objeto img {
+  width: 100%;
+  height: 100%;
+}
+
+.objeto-estatico {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  color: rgba(1, 204, 255, 0.703);
+  /* Todas as letras brancas */
+}
+
+.placar {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+}
+
+.lixeiras {
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.plano-de-fundo-img {
+  background-image: url('./imglogica/fundo.jpg');
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+}
