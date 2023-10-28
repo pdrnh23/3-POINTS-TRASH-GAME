@@ -1,7 +1,4 @@
-var textoObjetoEstatico1 = document.getElementById("textoObjetoEstatico1");
-var textoObjetoEstatico2 = document.getElementById("textoObjetoEstatico2");
-var textoObjetoEstatico3 = document.getElementById("textoObjetoEstatico3");
-var textoObjetoEstatico4 = document.getElementById("textoObjetoEstatico4");
+
 
 textoObjetoEstatico1.innerHTML = "Papel";
 textoObjetoEstatico2.innerHTML = "Plástico";
@@ -12,8 +9,6 @@ var objetosArrastaveis = document.getElementsByClassName("objeto");
 var objetosEstaticos = document.getElementsByClassName("lixeiras");
 var indexObjetoArrastavel = 0; // Índice do objeto arrastável atual
 
-console.log(objetosArrastaveis[Math.floor(Math.random() *  3)])
-
 var acertos = 0; // Contador de acertos
 var erros = 0; // Contador de erros
 
@@ -21,10 +16,10 @@ var placarAcertos = document.getElementById("placarAcertos");
 var placarErros = document.getElementById("placarErros");
 
 var posicoesIniciais = {
-  objeto1: { top: '300px', left: '350px' },
-  objeto2: { top: '300px', left: '350px' },
-  objeto3: { top: '300px', left: '350px' },
-  objeto4: { top: '300px', left: '350px' }
+  objeto1: { top: '75%', left: '50%' },
+  objeto2: { top: '75%', left: '50%' },
+  objeto3: { top: '75%', left: '50%' },
+  objeto4: { top: '75%', left: '50%' }
 };
 
 
